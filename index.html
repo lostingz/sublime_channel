@@ -19,7 +19,16 @@
 
     <section class="main-content">
       <p>Sublime channel</p>
-
+      <div>
+            <strong>解决sublime无法安装package的问题</strong>
+            <p>1.打开sublime，ctrl+shift+p打开窗口输入：Package Control: Add Channel 指定sublime的channel为本页面下载channel json的路径即：<a href="https://raw.githubusercontent.com/lostingz/sublime_channel/gh-pages/channel_v3.json">https://raw.githubusercontent.com/lostingz/sublime_channel/gh-pages/channel_v3.json</a></p>
+            <p>2.ctrl+shift+p 输入install 选择Package Control install 等待后输入或选择要安装的软件</p>
+            <p style="color:red">如果指定channel json 路径后提示 Schema的的版本不对（schema is not a valid number） 卸载原来的package control插件，重新安装新版本即可</p>
+            
+      </div>
+      <div>
+          卸载指定插件方法：按ctr+shift +p然后输入remove 回车，再输入要删除的插件名
+      </div>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/lostingz/sublime_channel">Sublime channel</a> is maintained by <a href="https://github.com/lostingz">lostingz</a>.</span>
 
